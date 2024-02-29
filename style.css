@@ -1,0 +1,94 @@
+/**@import url("https://fonts.googleapis.com/css?family=Caveat");
+
+html,
+body {
+    background: linear-gradient(to bottom, rgba(24,26,43,1) 0%, rgba(57,71,105,1) 73%, rgba(106,96,120,1) 100%);
+    background: linear-gradient(
+        to bottom,
+        rgba(9, 5, 19, 1) 0%,
+        rgba(150, 73, 135, 1) 75%,
+        rgba(253, 188, 163, 1) 100%
+    );
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.stars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    &:after,
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQAQMAAAC6caSPAAAABlBMVEVHcEz///+flKJDAAAAAXRSTlMAQObYZgAAAIVJREFUeAHt2SEOwkAQhtFJKuqKRRGOgKzgUMgKRI/G0ZDoacNkN/ue/zJ+/ugBcI+01/EEAGBc04FkP58AVFoi7VaSLAEAAPB/j0hbK678AADMkXbZG03mGA0AAKsP3JgAAGDa88knsuZ8Mp1M6gEAPFtNrtEjtkh7lyRb3/PAWpS0BPgC0PMMdOEjXqoAAAAASUVORK5CYII=");
+    }
+    &:after {
+        background-size: 100px;
+        opacity: 0.4;
+    }
+    &:before {
+        background-size: 200px;
+        opacity: 0.6;
+    }
+    animation: rotation 360s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    font-size: calc(1.5em + 5vw);
+    color: #fff;
+    font-family: "Caveat", sans-serif;
+    text-align: center;
+    padding: 0.5em;
+    transform: rotate(-4deg) translateY(-15vh);
+}
+
+.mountains {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: aut  o;
+    min-width: 100%;
+    height: 60px;
+    fill: #000022;
+}
+.mountains--layer1 {
+    z-index: 2;
+}
+.mountains--layer2 {
+    fill: #9d5189;
+    z-index: 0;
+}**/
+
+
+
+body{
+    color: rgb(38, 143, 175);
+    font-size: 60px;
+}
+
+
+
+
+
+
